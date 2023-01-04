@@ -1,5 +1,6 @@
+# VSCODE漂亮连字体  
 
-# `Font` 字体
+## `Font` 字体
 
 首先需要启用连字体，也就是在**文件>首选项>>设置**里面设置`"editor.fontLigatures": true,`为true。
 
@@ -27,8 +28,18 @@
 安装 `Operator Mono` 字体（可选） ，些字体为斜体美观体，可以使用连体字
 
 ##  最终配置参考 
+注：通过测试发现，这两字体只能二选一
+```
+"editor.fontLigatures": true,
+"editor.fontFamily": "Fira Code"
+```
+```
+"editor.fontLigatures": true,
+"editor.fontFamily": "Operator Mono"
+```
 
 ```
+// 备份
 "editor.fontLigatures": true,
 "editor.fontFamily": "Fira Code, Operator Mono, Consolas, 'Courier New', monospace"
 ```
