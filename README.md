@@ -26,7 +26,7 @@
 
 安装 `Operator Mono` 字体（可选） ，些字体为斜体美观体，可以使用连体字
 
-##  最终参考 
+##  最终配置参考 
 
 ```
 "editor.fontLigatures": true,
